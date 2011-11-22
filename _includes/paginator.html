@@ -3,12 +3,12 @@
     {% if paginator.previous_page == 1 %}
         <a href="/">previous page</a>
     {% else %}
-        <a href="/page{{ paginator.previous_page }}"> &lt;&lt; previous page</a>
+        <a href="/page{{ paginator.previous_page }}">previous page</a>
     {% endif %}
 {% endif %}
 </span>
 <span class="nextPage">
 {% if paginator.next_page %}
-<a href="/page{{ paginator.next_page }}">next page &gt;&gt; </a>
+<a href="/page{{ paginator.next_page }}">next page</a>
 {% endif %}
 </span>
