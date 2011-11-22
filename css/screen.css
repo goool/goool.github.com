@@ -37,7 +37,7 @@ h1 {
     line-height: 1.3em;
     margin-top: 0;
     padding-top: 0.3em;
-    padding-bottom: 60px;
+    padding-bottom: 4.2em;
 }
 .menubar a {
     color: #aaaaaa;
@@ -88,7 +88,7 @@ h1 {
 .nextPage {
     float: right;
 }
-.article { padding-bottom: 60px; }
+.article { padding-bottom: 4.2em; }
 .title a {
     color: black;
     text-decoration: none;
