@@ -55,7 +55,8 @@ a:hover { border-bottom: 1px solid #d3dfee; }
 #footer {
     color: #aaaaaa;
     font-size: 0.9em;
-    margin-bottom: 2em;
+    margin-bottom: 2.1em;
+    border-top: 1px solid #d3dfee;
 }
 #footer a {
     color: #aaaaaa;
