@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font: 18px "ff-dagny-web-pro-1", "ff-dagny-web-pro-2";
+    font: 18px helvetica, arial, clean, sans-serif;
     line-height: 1.6em;
     color: black;
     background: white;
@@ -10,7 +10,7 @@ p {
     margin-top: 1.6em;
 }
 h1, h2, h3, h4, h5 {
-    font-family: "adelle-1", "adelle-2";
+    font-family: Monaco, "Courier New", monospace;
     font-weight: normal;
 }
 h3 { font-size: 1.3em; }
