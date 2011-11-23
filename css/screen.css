@@ -94,6 +94,11 @@ a:hover { border-bottom: 1px solid #d3dfee; }
 .nextPage {
     float: right;
 }
+.archiveDate {
+    width: 4.2em;
+    display: -moz-inline-box;
+    display: inline-block;
+}
 .article { padding-bottom: 4.2em; }
 .title a {
     color: black;
