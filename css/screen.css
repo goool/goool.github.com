@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font: 18px helvetica, arial, clean, sans-serif;
+    font: 18px Monaco, "Courier New", monospace;
     line-height: 1.6em;
     color: black;
     background: white;
