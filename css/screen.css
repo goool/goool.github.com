@@ -6,6 +6,9 @@ body {
     color: black;
     background: white;
 }
+p {
+    margin-top: 1.7em;
+}
 h1, h2, h3, h4, h5 {
     font-family: "adelle-1", "adelle-2";
     font-weight: normal;
