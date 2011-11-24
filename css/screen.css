@@ -52,6 +52,10 @@ a:hover { border-bottom: 1px solid #d3dfee; }
     text-decoration: none;
 }
 .menubar a:hover { color: #004491; }
+.postTime {
+    color: #aaaaaa;
+    font-size: 0.9em;
+}
 #footer {
     color: #aaaaaa;
     font-size: 0.9em;
