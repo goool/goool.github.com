@@ -5,17 +5,17 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>goool's blog</title>
-    <link href="http://goool.github.com/atom.xml" rel="self"/>
-    <link href="http://goool.github.com/"/>
+    <link href="{{ site.url }}/atom.xml" rel="self"/>
+    <link href="{{ site.url }}/"
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://goool.github.com/</id>
+    <id>{{ site.url }}/</id>
 
     {% for post in site.posts %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://goool.github.com{{ post.url }}"/>
+        <link href="{{ site.url }}{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://goool.github.com{{ post.id }}</id>
+        <id>http://{{ site.url }}{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
     {% endfor %}

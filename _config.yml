@@ -1,3 +1,7 @@
-pygments: true
-paginate: 5
+url: http://goool.github.com
+author: goool
+title: goool's blog
+twitterAccount: pengcx
 permalink: /:year/:month/:day/:title
+paginate: 5
+pygments: true
